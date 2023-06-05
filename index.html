@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Health Management System</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <span class="navbar-brand mb-0 h1">Health Management System</span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>System Information</h2>
+        <p>ONLINE HEALTH SYSTEM WITH DIFFERENT DOCTORS.</p>
+      </div>
+      <div class="col-lg-6">
+        <h2>Make Appointment</h2>
+        <form id="appointment-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" class="form-control" id="date" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Time</label>
+            <input type="time" class="form-control" id="time" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white mt-4">
+    <div class="container py-3">
+      <p class="mb-0">© 2023 Health Management System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
